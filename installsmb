@@ -1,0 +1,19 @@
+file3=/etc/samba/smb.conf
+
+#sudo cat $file4 >> $file3
+echo " Share settings saved! "
+
+/bin/cat <<EOM >$file3
+[home]
+path = /home/administrator
+guest ok = yes
+browseable = yes
+read only = no
+[www]
+path = /var/www
+guest ok = yes
+browseable = yes
+read only = no
+EOM
+
+sudo service samba reload
