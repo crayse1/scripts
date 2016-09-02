@@ -1,4 +1,4 @@
-sudo apt-get install apache2 screen php5 libapache2-mod-php5 php5-gd openjdk-8-jre git
+sudo apt-get install apache2 screen php7 libapache2-mod-php7 php7-gd openjdk-8-jre git
 mkdir server
 chmod -R 777 server
 git clone https://github.com/Alanaktion/MCHostPanel.git /var/www/html/MCHostPanel
