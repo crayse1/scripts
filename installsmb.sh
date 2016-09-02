@@ -1,7 +1,7 @@
 #!/bin/bash
 file=/etc/samba/smb.conf
 
-/bin/cat <<EOM >$file
+/bin/cat <<EOM >>$file
 [home]
 path = /home/administrator
 guest ok = yes
