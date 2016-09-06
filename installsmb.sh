@@ -1,7 +1,7 @@
 #!/bin/bash
 file=/etc/samba/smb.conf
 
-/bin/cat <<EOM >>$file
+/bin/cat <<EOM >$file
 #
 # Sample configuration file for the Samba suite for Debian GNU/Linux.
 #
