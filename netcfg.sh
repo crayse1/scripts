@@ -30,6 +30,16 @@ address $staticip
 netmask $netmask
 gateway $routerip
 dns-nameservers 208.67.222.222 208.67.220.220
+
+#New standard for interfaces 
+auto ens160
+iface ens160 inet static 
+address $staticip 
+netmask $netmask 
+gateway $routerip 
+dns-nameservers 208.67.222.222 208.67.220.220 
+
+
 EOF
 #don't use any space before of after 'EOF' in the previous line
   echo ""
