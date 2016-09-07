@@ -31,13 +31,14 @@ netmask $netmask
 gateway $routerip
 dns-nameservers 208.67.222.222 208.67.220.220
 
-#New standard for interfaces 
-auto ens160
-iface ens160 inet static 
-address $staticip 
-netmask $netmask 
-gateway $routerip 
-dns-nameservers 208.67.222.222 208.67.220.220 
+#New standard for interfaces for Ubuntu 16
+#But I think I will stick with 15.10 for now.
+#auto ens160
+#iface ens160 inet static 
+#address $staticip 
+#netmask $netmask 
+#gateway $routerip 
+#dns-nameservers 208.67.222.222 208.67.220.220 
 
 
 EOF
