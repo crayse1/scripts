@@ -24,9 +24,8 @@ cat << EOF > $1
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 EOF
-#don't use any space before of after 'EOF' in the previous line
   echo ""
-  echo "Your informatons was saved in '$1' file."
+  echo " '$srvhostname' saved in '$1' file."
   echo ""
 
   exit 0
